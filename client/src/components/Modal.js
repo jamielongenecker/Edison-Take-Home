@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "./modal.css"
 
 const Modal = (props) => {
@@ -9,7 +9,6 @@ const Modal = (props) => {
     const onClose = (e) => {
         props.onClose && props.onClose(e);
     }
-
 
     return (
         <div className="modal">

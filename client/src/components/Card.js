@@ -6,9 +6,6 @@ const Card = (props) => {
     const showModal = (e) => {
         setShow(!show);
     }
-    const onClose = (e) => {
-        setShow(false);
-    }
 
     return (
         <div className='tile'>
