@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+body {
+margin: 0;
+width: 100%;
+font-family: "Satisfy", cursive;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+background-image: linear-gradient(
+	to right,
+	#eea2a2 0%,
+	#bbc1bf 19%,
+	#57c6e1 42%,
+	#b49fda 79%,
+	#7ac5d8 100%
+);
+}
+
+code {
+font-family: "Satisfy", cursive;
+}
+
+.app-container {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+min-height: 100vh;
+padding: 3rem 1rem;
+}
+
+.app-container h1 {
+width: 0ch;
+color: black;
+white-space: nowrap;
+}
+
+.pokemon-container {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+border-color: black;
+}
+
+.load-more {
+background-color: #76daff;
+background-image: linear-gradient(
+	315deg, #76daff 0%, #fcd000 74%);
+border-radius: 6px;
+border: 1px solid #c6c6c6;
+color: #444;
+padding: 0.5rem 1.5rem;
+min-width: 20%;
+margin-top: 1rem;
+font-family: "Satisfy", cursive;
+}
+
+button:hover {
+background-color: #ff0000;
+background-image: linear-gradient(
+	315deg, #ff0000 0%, #ffed00 74%);
+}
+
+h3 {
+text-decoration: underline;
+}

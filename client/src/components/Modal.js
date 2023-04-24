@@ -1,6 +1,10 @@
 import React from "react";
-import "./modal.css"
 
+/**
+ * Reusable component for a Modal
+ * @param {Object} props React props
+ * @returns Content of Modal and a close button
+ */
 const Modal = (props) => {
     if(!props.show) {
         return null;
