@@ -1,7 +1,7 @@
 # Edison Take Home Assignment
 
 ## Running the application
-- Upon opening the project, run `npm install` to install the dependencies.
+- Upon opening the project, navigate to the `client` directory & run `npm install` to install the dependencies.
 - Run `npm start` 
 
 ## Additional Information
